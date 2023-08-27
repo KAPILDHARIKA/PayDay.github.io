@@ -2,11 +2,14 @@
         "name": "cs_546_project_final",
         "version": "1.0.0",
         "description": "",
+        "homepage": "https://KAPILDHARIKA.github.io",
         "main": "app.js",
         "scripts": {
                 "seed": "node test.js",
                 "test": "echo \"Error: no test specified\" && exit 1",
-                "start": "node app.js"
+                "start": "node app.js",
+                "build": "npm run build",
+                "custom-deploy": "node pages.js"
         },
         "author": "Zachary Zwerling, Parth Parab, Neil Gupte, Dharika Kapil",
         "license": "MIT",
@@ -19,6 +22,7 @@
                 "express": "^4.17.1",
                 "express-handlebars": "^3.1.0",
                 "express-session": "^1.17.0",
+                "gh-pages": "^6.0.0",
                 "handlebars": "^4.1.2",
                 "jquery": "^3.4.1",
                 "mongodb": "^3.4.0",
